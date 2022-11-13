@@ -1,0 +1,8 @@
+#N canvas 1356 369 1140 941 12;
+#X obj 155 166 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 200 321 dac~;
+#X obj 181 243 rtcmix~ 4 LONGCHAIN.sco;
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;
+#X connect 2 1 1 1;
